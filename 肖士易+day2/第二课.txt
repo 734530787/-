@@ -1,0 +1,32 @@
+作业讲解：
+1.静态讲解 重要性：呈现外观 
+规范：
+     命名规范。
+     代码规范：css样式表开头 @charset "utf-8"
+     代码大小写：推荐小写
+     选择器：不用通用选择器*；不使用ID选择器；避免使用元素选择器；减少使用层级（从右向左渲染）
+     代码易读性（16位颜色简写；不写0值）
+     样式书写顺序：按功能分组 重要的放前面（方位（position） 大小 间隙（box） 文字 外观）；伪类 content放最前面 
+     写注释便于阅读维护
+
+     box-sizing:border
+     text-overflow:ellipsis ;overflow:hidden ;
+     
+     清除浮动
+     
+     重置样式表（es值 相对大小)
+     
+     写样式第一步：提取通用信息，汇总，方便继承（背景，字体，字号，字体颜色，内外边距...）
+
+     构思 分块  加样式
+
+     第一次开发考虑灵活性（后续跟进）
+
+     （div）块元素居中：margin：auto
+
+     table 布局 水平居中：text-align:center;  垂直居中：vertical-align:middle;
+     (嵌套在table>td 中才行) 将 div块设置为 display:table/table-cell;
+
+     overflow：对超出部分的设定 ( hidden：超出部分隐藏  auto:超出部分显示滚动条  )
+
+     做完测试一编
