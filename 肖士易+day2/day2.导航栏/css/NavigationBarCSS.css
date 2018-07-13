@@ -1,0 +1,125 @@
+/*------------样式清除------------*/
+body, ul, ol, dl, dd, p, h1, h2, h3, h4, h5, h6, pre {
+    margin:0;
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    color: aliceblue;
+}
+ul, ol, input, button {padding:0;}
+input,button,textarea {border:0; outline: none;}
+li {list-style: none;}
+a {text-decoration: none;}
+textarea {resize: none;}
+table{ border-collapse:collapse; border-spacing:0;}
+
+.clear::after{
+    clear: both;
+}
+/*-------------------------------*/
+
+
+.navContainer{
+    display: inline-block;
+    width:100%;
+    height:60px;
+    background:#2D2D37;
+}
+
+.logoDiv{
+    display: inline-block;
+    width:30%;
+    height:60px;
+    background: #2D2D37;
+    text-align: center;
+    vertical-align: top;
+}
+
+.ulDiv{
+    display: inline-block;
+    width:50%;
+    height:60px;
+    background: #2D2D37;
+    text-align: center;
+    vertical-align: top;
+}
+
+.userDiv{
+    display: inline-block;
+    width:15%;
+    height:60px;
+    background: #5C5E65;
+    vertical-align: top;
+}
+
+.picture{
+    padding-top: 16px;
+    padding-bottom: 17px;
+}
+
+ul{
+    width:100%;
+    height:60px;
+}
+
+li{
+    position: relative;
+    display:inline-block;
+    list-style-type: none;
+    width:14%;
+    height:60px;
+}
+
+.userPic{
+    float: left;
+    padding-top: 11px;
+    padding-left:25px; 
+    padding-bottom: 10px;
+}
+
+ul li ul{
+    /* visibility: hidden; */
+    position: absolute;
+    width:100%;
+    height:150px;
+    top:60px;
+    left:0px;
+    vertical-align: top;
+}
+
+ul li ul li{
+    display:inline-block;
+    text-align: center;
+    width:100%;
+    height:50px;
+    margin:0 auto;
+    position:relative;
+    vertical-align: top;
+    line-height:50px;
+}
+
+ul li:hover ul li{
+    background-color: #4A4A4A;
+    visibility: visible;
+}
+
+ul li ul li:hover{
+    background-color: #5C5E65;
+}
+
+a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-decoration: none;
+    border-top:5px solid rgb(248, 60, 74 , 0);
+}
+
+a:hover{
+    border-top:5px solid rgb(248, 60, 74);
+}
+
+.Admin{
+    float: left;
+    padding: 22px 0px 0px 25px;
+}
