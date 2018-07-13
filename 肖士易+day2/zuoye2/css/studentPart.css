@@ -1,0 +1,86 @@
+
+
+StudentpartBox  /* .设置整个学员框样式 */
+     { 
+       width:740px;
+       height:340px;
+       background:rgba(255,255,255,1);
+       border-radius:3px;
+       box-shadow:1px 0px 5px rgba(4,0,0,0.2);
+     }
+
+.StudentpartTitle   /*标题字体位置*/
+{ 
+  
+       padding-top: 21px;
+       width: 100%;
+       height:14px;
+       font-size:14px;
+       font-family:NotoSansHans-Regular;
+       color:rgba(0,0,0,1);
+       text-align: center;
+}
+.line1           /*横排上间距*/
+{
+  padding-top: 60px;
+  }
+.photoMessage1         /*横向排列块*/
+{
+      position: relative;
+       display: inline-block;
+       /* padding-left: 20px; */
+       height: 120px;
+       width: 100px;
+       margin-left: 20px;
+       border-radius:6px;
+  border:1px solid transparent; 
+}
+
+.photoMessage1 img      /*设置学生图片大小*/
+{
+  margin-left: 20px;
+  margin-top: 20px;
+       width: 60px;
+      height: 60px;
+      
+}
+
+.photoMessage1:hover    /*鼠标经过红色边框*/
+{
+  
+  border-radius:6px;
+  border:1px solid red; 
+}
+.photoMessage1:active     /*点击变色*/
+{
+  border:1px solid gray;
+}
+.username    /*学员姓名*/
+{
+  /* padding-left: 16px; */
+  text-align: center;
+  width:100px;
+  height:14px;
+  font-size:14px;
+  color:black;
+  font-family:NotoSansHans-Medium;
+}
+.photoMessage1:hover .delete  /*显示删除标记*/
+{
+  position: absolute;
+  right: -12px;
+  top: -12px;
+  display: block;
+  height: 26px;
+  width: 26px;
+  background-color: red;
+  border-radius: 50%;
+  background-image: url("../img/形状 18@2x.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.center
+{
+position:relative;
+vertical-align:top; /*水平线对齐*/
+}

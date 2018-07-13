@@ -1,0 +1,14 @@
+/*默认样式的清除*/
+body, ul, ol, dl, dd, p, h1, h2, h3, h4, h5, h6, pre {margin:0;}
+ul, ol, input, button {padding:0;}
+input,button,textarea {border:0; outline: none;}
+li {list-style: none;}
+a {text-decoration: none;}
+textarea {resize: none;}
+table{ border-collapse:collapse; border-spacing:0;}
+
+/*基础样式重新设置*/
+Html { -ms-text-size-adjust: 100%;}
+body { font-family: "San Francisco", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif; font-size: 12px; color: #30404F; }
+input,button,textarea{font-size:12px; font-family: "San Francisco", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;}
+*{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
