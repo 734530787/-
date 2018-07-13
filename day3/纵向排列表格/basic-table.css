@@ -1,0 +1,4 @@
+.demoBox{ display: table; table-layout: fixed; width:500px;}
+    .item{display: table-cell; padding: 0 20px; vertical-align: top; text-align: center;}
+    .item + .item{border-left:1px #ccc solid;}
+    .item span{ display: block;}
